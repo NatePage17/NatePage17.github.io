@@ -7,12 +7,13 @@ html {
 }
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    text-align: center;  
 }
 .personal {
     grid-column: 1/2;
+    grid-row: 3;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
@@ -27,6 +28,7 @@ body {
 }
 #business {
     grid-column: 2/3;
+    grid-row: 3;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
@@ -41,6 +43,7 @@ body {
 }
 .enterprise {
     grid-column: 3/4;
+    grid-row: 3;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
