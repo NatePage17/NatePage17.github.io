@@ -20,6 +20,10 @@ body {
     padding: 35px;
 
 }
+.rightimage {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 .personal h3 {
     margin: 0 auto;
 }
@@ -33,6 +37,10 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 45px;
+}
+.middleimage {
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 #business h3 {
@@ -49,7 +57,10 @@ body {
     margin: 0 auto;
     padding: 35px;
 }
-
+.rightimage {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 .enterprise h3 {
     margin: 0 auto;
 }
