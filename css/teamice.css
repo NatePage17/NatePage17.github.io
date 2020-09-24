@@ -7,20 +7,25 @@ html {
 }
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 50px 1fr 50px;
     text-align: center;  
 }
-.personal {
+
+/*Personal*/
+#personal {
     grid-column: 1/2;
-    grid-row: 3;
+    grid-row: 2/3;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
     padding: 35px;
-
+    box-shadow: 0px 5px 5px rgb(99, 148, 167);
 }
-.rightimage {
+#personal:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.personalimage {
     padding-top: 20px;
     margin-bottom: 20px;
 }
@@ -30,15 +35,33 @@ body {
 .personal p {
     margin: 0 auto;
 }
+
+/*Business*/
 #business {
     grid-column: 2/3;
-    grid-row: 3;
+    grid-row: 2/4;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
     padding: 45px;
+    box-shadow: 0px 5px 5px rgb(99, 148, 167);
 }
-.middleimage {
+#business:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.mostPopular {
+    background-color: blue;
+    color: white;
+    grid-row: 1;
+    grid-column: 2/3; 
+    margin: 0 auto;
+    width: 240px;
+    height: 30px;
+    padding-top: 19px;
+    text-align: center;
+    justify-content: center;
+}
+.buissnessimage {
     padding-top: 20px;
     margin-bottom: 20px;
 }
@@ -47,17 +70,33 @@ body {
     margin: 0 auto;
 }
 .business p {
-    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.enterprise {
+.bigbutton {
+    padding: 5px 15px 5px 15px;
+    transition: transform .2s;
+}
+.bigbutton:hover {
+    background-color: yellow;
+    transform: scale(1.25);
+    
+}
+
+/*Enterprise*/
+#enterprise {
     grid-column: 3/4;
-    grid-row: 3;
+    grid-row: 2/3;
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
     padding: 35px;
+    box-shadow: 0px 5px 5px rgb(99, 148, 167);
 }
-.rightimage {
+#enterprise:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.enterpriseimage {
     padding-top: 20px;
     margin-bottom: 20px;
 }
@@ -66,4 +105,8 @@ body {
 }
 .enterprise p {
     margin: 0 auto;
+}
+
+.smallbutton {
+    padding: 5px 15px 5px 15px;
 }
