@@ -1,0 +1,68 @@
+body {
+    max-width: 1200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+header .delta_logo {
+    grid-column: 1/2;
+    justify-content: left;
+}
+header p {
+    grid-column: 3/4;
+    justify-content: right;
+}
+
+.grid_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.denver {
+    grid-column: 1/2;
+}   
+
+.plane {
+    grid-column: 2/3;
+}
+
+.boston {
+    grid-column: 3/4;
+}
+
+.date {
+    grid-column: 1/2;
+}
+
+.flight {
+    grid-column: 2/3;
+}
+
+.gate{
+    grid-column: 3/4;
+}
+
+.seat {
+    grid-column: 1/2;
+}
+
+.boarding_zone {
+    grid-column: 2/3;
+}
+
+.boarding_time {
+    grid-column: 3/4;
+}
+
+.barcode {
+    grid-column: 1/4;
+}
+
+.footer {
+    grid-column: 1/4;
+}
